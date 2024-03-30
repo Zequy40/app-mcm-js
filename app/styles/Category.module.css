@@ -1,0 +1,109 @@
+.header{
+    max-width: 760px;
+    background: rgba(229, 231, 235, 0.898);
+    margin-top: 6.5rem;
+    z-index: 1;
+   
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    --tw-bg-opacity: 1;
+    background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+    cursor: pointer;
+    border-bottom-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+.btn:active{
+    --tw-scale-x: .9;
+    --tw-scale-y: .9;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+
+.blockBg{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 25%;
+    padding-left: 0.5rem/* 8px */;
+    padding-right: 0.5rem/* 8px */;
+    padding-top: 1.25rem/* 20px */;
+    padding-bottom: 1.25rem/* 20px */;
+    
+}
+.tag{
+    padding: 0.5rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+}
+
+.subTag{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0.5rem/* 8px */;
+    padding-right: 0.5rem/* 8px */;
+    padding-top: 1.25rem/* 20px */;
+    padding-bottom: 1.25rem/* 20px */;
+    
+}
+
+.h5{
+    font-weight: 700;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    font-size: 1rem; /* 16px */
+line-height: 1.5rem;
+}
+
+.p{
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    font-size: 0.875rem/* 14px */;
+    line-height: 1.25rem/* 20px */;
+}
+
+.tortillaCat{
+    --tw-bg-opacity: 1;
+    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    color: white;
+}
+
+.menuCat{
+    --tw-bg-opacity: 1;
+    background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+    color: white;
+}
+
+.picarCat{
+    --tw-bg-opacity: 1;
+    background-color: rgb(245 158 11 / var(--tw-bg-opacity));
+    color: white;
+}
+
+.polloCat{
+    --tw-bg-opacity: 1;
+    background-color: rgb(161 98 7 / var(--tw-bg-opacity));
+    color: white;
+}
+
+.pescadoCat{
+    --tw-bg-opacity: 1;
+    background-color: rgb(49 46 129 / var(--tw-bg-opacity));
+    color: white;
+}
+
+.bolsaCat{
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    color: black;
+}

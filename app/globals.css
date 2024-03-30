@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.product{
+  position: relative;
+  top:7.2rem;
+}
